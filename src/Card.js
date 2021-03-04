@@ -1,12 +1,12 @@
 import React from "react";
 
 
-const Card = () => {
+const Card = (props) => {
    return (<div className="card">
     <img src="https://picsum.photos/seed/picsum/200/300" className="card-img-top" alt="..." />
     <div className="card-body">
-      <h5 className="card-title">Card title</h5>
-      <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      <h5 className="card-title">{props.title}</h5>
+      <p className="card-text">{props.descripcion}</p>
       <div className="card-footer" style={{textAlign:"center"}}>
       <button type="button" className="btn btn-primary">Find Out More!</button>
       </div>
@@ -15,5 +15,6 @@ const Card = () => {
 }
 
 export default Card;
+
 
 
