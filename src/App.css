@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+
+.collapse{
+background-color: black;
+}
+
+.contenido-footer{
+  background-color: black;
+  text-align: center;
+}
