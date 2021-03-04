@@ -4,6 +4,7 @@ import Header from "./Header";
 import NavBar from "./NavBar";
 import Card from "./Card";
 import Footer from "./Footer";
+import Card2 from "./Card2";
 
 
 function App() {
@@ -12,7 +13,7 @@ function App() {
       <NavBar/>
     <div className="container">
       <Header/>
-      <Card/>
+      <Card2/>
     </div>
       <Footer/>
     </div>
